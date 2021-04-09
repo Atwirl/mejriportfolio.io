@@ -1,0 +1,402 @@
+html
+{
+    scroll-behavior: smooth;
+}
+/**SECTION1 BEGIN**/
+#home
+{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftsection1
+{
+    width: 50%;
+    height: 100%;
+    background: rgb(15, 15, 15);
+}
+.left-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 270px;
+}
+.left-container h1
+{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+.left-container h3
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+.left-container h4
+{
+    padding:10px;
+    color: white;
+}
+.left-container a
+{
+    padding-top: 10px;
+    text-decoration: none;
+    color: #01A79C;
+}
+.left-container .rsx
+{
+    padding-top: 20px;
+}
+.left-container .rsx a
+{
+    margin: 30px;
+    color: white;
+    transform: scale(1);
+}
+.left-container .rsx a :hover
+{
+    color: #F9AF41;
+    transform: scale(1.5);
+    transition: 400ms;
+}
+.rightsection1
+{
+    width: 50%;
+    height: 100%;
+    background: white;
+}
+.right-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.right-container img
+{
+    transition: .20s;
+}
+@media only screen and (max-width: 600px)
+{
+    #home
+    {
+        flex-direction: column;
+    }
+    .leftsection1
+    {
+        width: 100%;
+    }
+    .rightsection1
+    {
+        display: none;
+    }
+}
+/**SECTION 1 FINISH**/
+/**SECTION 2 BEGIN**/
+#about
+{
+    width: 100%;
+    height: 800px;
+    background: white;
+}
+.section2-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description
+{
+    padding-top: 120px;
+}
+.description-container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-container h1
+{
+    padding-bottom: 20px;
+}
+.description-container h3
+{
+    padding-bottom: 10px;
+}
+.card-container
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1
+{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.card1 .card-circle
+{
+    width: 100%;
+    height: 100px;
+    clip-path: circle(100px at center 0);
+    background: rgb(15, 15, 15);
+    text-align: center;
+}
+.card1 .card-circle:hover
+{
+    background: #F9AF41;
+    transition: 200ms;
+}
+.card1 .card-circle .fas
+{
+    color: white;
+    padding-top: 10px;
+}
+.card1 .card-title
+{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #01A79C;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+.card1 .card-content
+{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.card1 a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    color: #01A79C;
+    padding-top: 20px;
+}
+.card1 a :hover
+{
+    color: #F9AF41;
+}
+.card1 a h3
+{
+    margin: 5px;
+}
+.card2
+{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.card2 .card-circle
+{
+    width: 100%;
+    height: 100px;
+    clip-path: circle(100px at center 0);
+    background: rgb(15, 15, 15);
+    text-align: center;
+}
+.card2 .card-circle:hover
+{
+    background: #F9AF41;
+    transition: 200ms;
+}
+.card2 .card-circle .fas
+{
+    color: white;
+    padding-top: 10px;
+}
+.card2 .card-title
+{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #01A79C;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+.card2 .card-content
+{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.card2 a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    color: #01A79C;
+}
+.card2 a :hover
+{
+    color: #F9AF41;
+}
+.card2 a h3
+{
+    margin: 5px;
+}
+.card3
+{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.card3 .card-circle
+{
+    width: 100%;
+    height: 100px;
+    clip-path: circle(100px at center 0);
+    background: rgb(15, 15, 15);
+    text-align: center;
+}
+.card3 .card-circle:hover
+{
+    background: #F9AF41;
+    transition: 200ms;
+}
+.card3 .card-circle .fas
+{
+    color: white;
+    padding-top: 10px;
+}
+.card3 .card-title
+{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #01A79C;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+.card3 .card-content
+{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.card3 a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    color: #01A79C;
+}
+.card3 a :hover
+{
+    color: #F9AF41;
+}
+.card3 a h3
+{
+    margin: 5px;
+}
+.options
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option1
+{
+    margin: 20px;
+    border: 2px solid #01A79C;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+}
+.option1:hover
+{
+    transform: scale(1.1);
+    transition: 50ms;
+    border-color: #F9AF41;
+    color: #F9AF41;
+}
+.option1 a
+{
+    text-decoration: none;
+    color: #01A79C;
+}
+.option1 a :hover
+{
+    color: #F9AF41;
+}
+.option2
+{
+    margin: 20px;
+    border: 2px solid #01A79C;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option2:hover
+{
+    transform: scale(1.1);
+    transition: 50ms;
+    border-color: #F9AF41;
+    color: #F9AF41;
+}
+.option2 a
+{
+    text-decoration: none;
+    color: #01A79C;
+}
+.option2 a :hover
+{
+    color: #F9AF41;
+}
+@media only screen and (max-width: 600px)
+{
+    #about
+    {
+        padding-bottom: 800px;
+    }
+    .description h3
+    {
+        text-align: center;
+    }
+    .card-container
+    {
+        flex-direction: column;
+    }
+    
+}
